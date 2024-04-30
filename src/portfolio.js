@@ -26,7 +26,7 @@ const greeting = {
     "Buckle up for the future! I'm a student on a mission to unlock the potential of AI.  By wielding algorithms, I craft powerful ML models and delve into the wonders of Deep Learning, NLP, and the mind-blowing realm of Generative AI. Let's explore the possibilities together!",
   resumeLink:
     "https://drive.google.com/file/d/1pQNlg71xvY6ZAk2oynnsvk7Qud2HpNKr/view?usp=sharing",
-  portfolio_repository: "https://github.com/arch-adi21/ifadi",
+  portfolio_repository: "https://github.com/arch-adi21/heyadi",
   githubProfile: "https://github.com/arch-adi21",
 };
 
