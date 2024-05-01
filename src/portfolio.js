@@ -58,9 +58,9 @@ const socialMediaLinks = [
   //   fontAwesomeIcon: "fa-youtube", 
   //   backgroundColor: "#FF0000",
   // },
-  {
+  {@
     name: "Gmail",
-    link: "mailto:adityasiddharthjyoti@gmail.com",
+    link: "mailto:asj.reach@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
