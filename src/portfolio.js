@@ -582,7 +582,7 @@ const experience = {
           color: "#4285F4",
         },
         {
-          title: "Kanha House Secretry",
+          title: "Kanha House Secretary",
           company: "Kanha House IIT Madras",
           company_url: "https://kanha.iitmbs.org",
           logo_path: "Kanha_Logo.png",
