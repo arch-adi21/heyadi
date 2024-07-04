@@ -377,7 +377,7 @@ const degrees = {
   degrees: [
     {
       title: "Indian Institute of Technology Madras",
-      subtitle: "B.S in Data Science and Applications",
+      subtitle: "Bachelor's in Data Science and AI",
       logo_path: "iitm_logo.svg.webp",
       alt_name: "IIT Madras",
       duration: "2022 - 2026",
@@ -388,7 +388,7 @@ const degrees = {
         "⚡ Design Lead at COSMOS Tech Society",
         "⚡ Founder of Quantum E-Design Club",
       ],
-      website_link: "https://study.iitm.ac.in/ds/",
+      website_link: "https://study.iitm.ac.in/",
     },
     // {
     //   title: "Indiana University Bloomington",
