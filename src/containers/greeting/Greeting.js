@@ -38,6 +38,15 @@ export default function Greeting(props) {
                   className="portfolio-repo-btn"
                 />
               </div>
+              <div className="portfolio-repo-btn-div">
+                <Button
+                  text="Download My Resume"
+                  newTab={true}
+                  href={greeting.resumeLink}
+                  theme={theme}
+                  className="portfolio-repo-btn"
+                />
+              </div>
               {/* <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
               <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
