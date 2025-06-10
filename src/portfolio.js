@@ -532,6 +532,18 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "CTO, MedEvidences",
+          company: "MedEvidences Corporation",
+          company_url: "https://www.medevidences.com/",
+          logo_path: "medevidences.png",
+          duration: "Feb 2025 - current",
+          location: "remote",
+          description:
+            ```Leading the technical team in deep-tech development of AI-powered evidence based platform for medical professionals.
+            ```,
+          color: "#000000",
+        },
+        {
           title: "Machine Learning Intern",
           company: "YHills",
           company_url: "https://yhills.com/",
