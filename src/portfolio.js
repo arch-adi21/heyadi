@@ -9,11 +9,10 @@ const settings = {
 const seo = {
   title: "Aditya's Portfolio",
   description:
-    "AI Visionary Leader & Data Research Engineer with 2+ years experience building enterprise AI solutions, production-grade LLM systems, and multimodal products at scale. LinkedIn Top Voice in Data Science recognized for pioneering work in LLM hallucination mitigation.",
+    "AI/ML Engineer & Co-Founder with 2+ years building production agentic systems, LLM orchestration pipelines, and enterprise data infrastructure across healthcare and fintech. LinkedIn Top Voice in Data Science.",
   og: {
     title: "Aditya Siddharth Jyoti Portfolio",
     type: "website",
-    // url: "http://ashutoshhathidara.com/",
   },
 };
 
@@ -23,7 +22,7 @@ const greeting = {
   logo_name: "Aditya Siddharth Jyoti",
   nickname: "Catachi",
   subTitle:
-    "AI Visionary Leader & Data Research Engineer with 2+ years experience building enterprise AI solutions, production-grade LLM systems, and multimodal products at scale. LinkedIn Top Voice in Data Science recognized for pioneering work in LLM hallucination mitigation.",
+    "AI/ML Engineer & Co-Founder with 2+ years building production agentic systems, LLM orchestration pipelines, and enterprise data infrastructure across healthcare and fintech. Co-founded two US-incorporated, production-deployed AI products. LinkedIn Top Voice in Data Science.",
   resumeLink:
     "https://drive.google.com/file/d/1gBUmy0LbS71Il_UoigdNIhW5nqW8A6Rq/view?usp=sharing",
   portfolio_repository: "https://github.com/arch-adi21/heyadi",
@@ -76,49 +75,50 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "AI / Agentic Systems",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Building scalable, production-ready LLM and AI agentic systems (CrewAI, LangChain)",
-        "⚡ Architecting and optimizing RAG pipelines for clinical and financial data (2M+ daily queries)",
-        "⚡ Implementing hallucination detection layers using BERT and custom classifiers",
-        "⚡ Data lake engineering with Apache Hudi, Dremio, and SEC Filing Analysis",
-        "⚡ Compliance: HIPAA, GDPR, and Financial Data Governance",
+        "⚡ Building production agentic systems with LangGraph, LangChain, and Plan-Before-Action reasoning",
+        "⚡ Hybrid tool retrieval (BM25 + dense embeddings) with tiered model routing for cost optimization",
+        "⚡ RAG architectures with Knowledge Graph-powered reasoning for clinical and financial intelligence",
+        "⚡ Multi-agent orchestration, MCP integration, and real-time token economy tracking",
+        "⚡ Demand forecasting with Bidirectional LSTM, data lake engineering with Apache Hudi & Dremio",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Python",
+          fontAwesomeClassname: "logos:python",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "TensorFlow",
+          fontAwesomeClassname: "logos:tensorflow",
           style: {
-            backgroundColor: "white",
-            color: "#D00000",
+            backgroundColor: "transparent",
           },
         },
         {
           skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          fontAwesomeClassname: "logos:pytorch-icon",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "LangChain",
+          fontAwesomeClassname: "simple-icons:langchain",
           style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
+            color: "#1C3C3C",
           },
         },
         {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
+          skillName: "Redis",
+          fontAwesomeClassname: "logos:redis",
+          style: {
+            backgroundColor: "transparent",
+          },
         },
       ],
     },
@@ -126,164 +126,122 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using Flask, Vue.js, ReactJS frameworks",
-        "⚡ Created scalable backend (Flask, Celery, Redis), integrated Vue.js frontend, and automated task scheduling",
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Implemented database integrity and validation with SQLite, PostgreSQL, and Data Lake frameworks",
+        "⚡ Async REST APIs with FastAPI, WebSocket streaming, and Vercel AI SDK integration",
+        "⚡ React.js and Vue.js frontends with cinematic 3D landing pages (WebGL, Framer Motion)",
+        "⚡ Backend systems with Node.js, Express, Flask, and Prisma ORM",
+        "⚡ Database design with PostgreSQL, MongoDB, Redis, Snowflake, and Apache Hudi",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Python",
+          fontAwesomeClassname: "logos:python",
           style: {
-            color: "#E34F26",
+            backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Flask",
-          fontAwesomeClassname: "simple-icons:flask",
+          skillName: "FastAPI",
+          fontAwesomeClassname: "logos:fastapi-icon",
           style: {
-            color: "#E34F26",
+            backgroundColor: "transparent",
           },
         },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        // {
-        //   skillName: "Sass",
-        //   fontAwesomeClassname: "simple-icons:sass",
-        //   style: {
-        //     color: "#CC6699",
-        //   },
-        // },
         {
           skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          fontAwesomeClassname: "logos:javascript",
           style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
+            backgroundColor: "transparent",
           },
         },
         {
           skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          fontAwesomeClassname: "logos:react",
           style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "Vue.js",
-          fontAwesomeClassname: "simple-icons:vue-dot-js",
-          style: {
-            color: "#4FC08D",
+            backgroundColor: "transparent",
           },
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
+          fontAwesomeClassname: "logos:nodejs-icon",
           style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        // {
-        //   skillName: "Gatsby",
-        //   fontAwesomeClassname: "simple-icons:gatsby",
-        //   style: {
-        //     color: "#663399",
-        //   },
-        // },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on AWS (EC2, S3, EKS, Lambda, Neptune, OpenSearch), Docker, Kubernetes",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        // {
-        //   skillName: "Azure",
-        //   fontAwesomeClassname: "simple-icons:microsoftazure",
-        //   style: {
-        //     color: "#0089D6",
-        //   },
-        // },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
+            backgroundColor: "transparent",
           },
         },
         {
           skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          fontAwesomeClassname: "logos:postgresql",
           style: {
-            color: "#336791",
+            backgroundColor: "transparent",
           },
         },
-        // {
-        //   skillName: "MongoDB",
-        //   fontAwesomeClassname: "simple-icons:mongodb",
-        //   style: {
-        //     color: "#47A248",
-        //   },
-        // },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "logos:redis",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "logos:mongodb-icon",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+      ],
+    },
+    {
+      title: "Cloud & DevOps",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ AWS (EC2, S3, EKS, Lambda, Neptune, OpenSearch, Data Lake) and GCP (VM, Secret Manager)",
+        "⚡ Docker, Kubernetes, nginx reverse proxy, CI/CD with GitHub Actions",
+        "⚡ MLOps: model versioning, embedding pipelines, incremental sync, schema caching",
+        "⚡ SOC 2 Type II aligned security, RBAC, BYOK encryption, audit logging",
+      ],
+      softwareSkills: [
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "logos:aws",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "GCP",
+          fontAwesomeClassname: "logos:google-cloud",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
         {
           skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          fontAwesomeClassname: "logos:docker-icon",
           style: {
-            color: "#1488C6",
+            backgroundColor: "transparent",
           },
         },
-        // {
-        //   skillName: "Kubernetes",
-        //   fontAwesomeClassname: "simple-icons:kubernetes",
-        //   style: {
-        //     color: "#326CE5",
-        //   },
-        // },
+        {
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "logos:kubernetes",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "GitHub Actions",
+          fontAwesomeClassname: "logos:github-actions",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Nginx",
+          fontAwesomeClassname: "logos:nginx",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
       ],
     },
     // {
@@ -426,22 +384,44 @@ const experience = {
   title: "Experience",
   subtitle: "Internship and Volunteership",
   description:
-    "AI leader & data engineer with 2+ years of experience: CTO at MedEvidences (RAG, LLM, AWS), MLOps Intern at A2B (LSTM, Hudi, Dremio), Software Engineer Intern at BACUTI (KAN/CNN, async APIs), and Python Tutor. Led teams, optimized cloud costs, and delivered production-grade AI systems.",
+    "AI/ML engineer and co-founder with 2+ years building production agentic systems, LLM orchestration pipelines, and enterprise data infrastructure across healthcare and fintech. Currently SDE-I at Zenalyst.ai building agentic AI infrastructure.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Internships",
+      title: "Professional Experience",
       work: true,
       experiences: [
+        {
+          title: "SDE-I, MLOps / Agentic AI Infrastructure",
+          company: "Zenalyst.ai",
+          company_url: "https://zenalyst.ai/",
+          logo_path: "zenalyst.png",
+          duration: "Aug 2025 - Present",
+          location: "Remote",
+          description:
+            "Built core agentic reasoning loop with Plan-Before-Action system cutting 15-step chains to 2-3. Hybrid tool retrieval (BM25 + dense embeddings), three-layer caching (Redis, embedding, MongoDB), tiered model routing with ~30% cost reduction. Seven domain meta-tools for P2P procurement. Full LangGraph state machine with WebSocket streaming.",
+          color: "#000000",
+        },
         {
           title: "Co-Founder & CTO",
           company: "MedEvidences Corporation",
           company_url: "https://www.medevidences.com/",
           logo_path: "medevidences.png",
           duration: "Feb 2024 - Present",
-          location: "remote",
+          location: "Remote",
           description:
-            "Leading the technical team in deep-tech development of AI-powered evidence-based platform for medical professionals. Led team deploying AWS-based AI solutions (Neptune, OpenSearch) handling 2M+ daily queries. Implemented hallucination detection layer with 92.3% accuracy using custom BERT classifiers.",
+            "AI co-pilot for doctors and practitioners. RAG-based architecture with Knowledge Graph-powered reasoning (Neptune + Gremlin) for real-time clinical intelligence. AWS stack: Neptune, OpenSearch, Lambda. Led cross-functional team from 0 to live production deployment.",
+          color: "#000000",
+        },
+        {
+          title: "Co-Founder & CTO",
+          company: "Delligen",
+          company_url: "https://delligen.com/",
+          logo_path: "delligen.svg",
+          duration: "2024 - Present",
+          location: "Remote",
+          description:
+            "Enterprise due diligence platform. 370+ source files, 60+ database models, 6-level data hierarchy. Multi-agent AI system with tiered model routing, 64-metric financial calculator, Voice AI interview system, 15+ data source connectors. SOC 2 Type II aligned. DD types: Credit, Equity, M&A, Commercial, Restructuring, Tax.",
           color: "#000000",
         },
         {
@@ -449,10 +429,10 @@ const experience = {
           company: "A2B (Adyar Ananda Bhawan)",
           company_url: "#",
           logo_path: "a2b.png",
-          duration: "Feb 2025 - June 2025",
-          location: "remote",
+          duration: "Feb 2025 - May 2025",
+          location: "Remote",
           description:
-            "Spearheaded forecasting AI engine for 1000+ item-store pairs using advanced LSTM and Apache Hudi. Delivered scalable, production-grade predictions with AWS deployment.",
+            "Demand forecasting engine for 1,000+ SKU-store pairs using Bidirectional LSTM. Data architecture on Apache Hudi + AWS Data Lake with Dremio. Full MLOps ownership from data ingestion to AWS production deployment across 500+ stores.",
           color: "#000000",
         },
         {
@@ -461,21 +441,10 @@ const experience = {
           company_url: "https://www.bacuti.com/",
           logo_path: "bacuti.png",
           duration: "May 2024 - Jan 2025",
-          location: "remote",
+          location: "Remote",
           description:
-            "Developed KAN/CNN-based carbon emission predictor (97% accuracy), engineered async APIs, optimized Dockerized AWS EKS deployments, and contributed to Vue.js frontend.",
+            "Async REST APIs in FastAPI, optimized Dockerized microservice containers, PostgreSQL ETL pipelines with clean ORM patterns. React.js frontend features and custom automated test frameworks.",
           color: "#000000",
-        },
-        {
-          title: "Python Tutor (Freelance)",
-          company: "Indian Institute of Technology Madras",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "iitm_logo.svg.webp",
-          duration: "2022 - Present",
-          location: "Chennai, India",
-          description:
-            "Taught 50+ students in Python, Flask, and ML basics with a project-based approach.",
-          color: "#ee3c26",
         },
         // {
         //   title: "Data Science Intern",
@@ -559,7 +528,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Co-founded two US-incorporated, production-deployed AI products. My projects span enterprise due diligence, clinical AI, agentic systems, and MLOps infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -581,7 +550,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "catachi.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React ,Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with AI/ML, Agentic Systems, Full Stack Development, Cloud Infrastructure, and MLOps.",
   },
   blogSection: {
     title: "Blogs",
